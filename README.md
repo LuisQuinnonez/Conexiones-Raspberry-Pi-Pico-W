@@ -26,3 +26,7 @@ QUIÑONEZ ROCHA LUIS ARTURO 21212029
 
 NOMBRE DEL MAESTRO (A):
 Rene Solis
+
+	</p>
+
+</pre>
