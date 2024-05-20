@@ -54,7 +54,7 @@ void loop() {
 
 ## Práctica 1 - Desplegar "Hello World" C#
 ---
-![](c#.png)
+![]()
 
 ### Código
 
