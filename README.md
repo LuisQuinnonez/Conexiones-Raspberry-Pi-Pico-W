@@ -273,7 +273,9 @@ while True:
 
 ## Proyecto Final
 ---
-![]()
+![20240521_061135](https://github.com/LuisQuinnonez/Conexiones-Raspberry-Pi-Pico-W/assets/158366686/2af309f7-1f94-4b4e-b628-011f5860db62)
+
+
 
 ### Código
 ```C
