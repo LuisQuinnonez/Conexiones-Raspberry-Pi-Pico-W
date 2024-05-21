@@ -35,20 +35,21 @@ Rene Solis
 
 ## Práctica 0 - Desplegar "Hello World" 
 ---
-![]()
+![image](https://github.com/LuisQuinnonez/Conexiones-Raspberry-Pi-Pico-W/assets/158366686/c86b40fc-4f1b-4523-b200-cd4c0ecd586a)
 ### Código
 
 ```C
 void setup() {
+  Serial.println("Rasperry Pi Pico W");
   // Inicializa el monitor serial a una velocidad de 9600 baudios
-  Serial.begin(9600);
+  Serial.begin(115200);
 }
 
 void loop() {
   // Imprime "Hola mundo" en el monitor serial
-  Serial.println("Hola mundo");
+  Serial.println("Hola, Rasperry Pi Pico W!");
   // Espera 1 segundo antes de repetir el bucle
-  delay(1000);
+  delay(2000);
 }
 ```
 
