@@ -271,8 +271,8 @@ while True:
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
 // Replace with your network credentials
-const char* ssid = "Alex";
-const char* password = "1234567890";
+const char* ssid = "Olaf";
+const char* password = "12356";
 // Replace with your API Key and Model ID
 const char* api_key = "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";
 const char* model_id = "davinci";
@@ -307,7 +307,6 @@ return;
 Serial.println("connected");
 // Build request payload
 String payload = "{";
-payload += "\"prompt\": \"¿Cuál es el animal más rápido del mundo?\",";
 payload += "\"temperature\": 0.7,";
 payload += "\"max_tokens\": 50,";
 payload += "\"n\": 1,";
@@ -340,7 +339,6 @@ Serial.print(response);
 }
 }
 void loop() {
-// Nothing to do here
 }
 ```
 
