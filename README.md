@@ -240,7 +240,26 @@ void loop() {
 ### Código
 
 ```C
+from machine import Pin
+import bluetooth
+from ble_advertising import advertising_payload
 
+ble = bluetooth.BLE()
+ble.active(True)
+
+def on_scan(addr_type, addr, adv_type, rssi, adv_data):
+    print("Found device:", bluetooth.decode_name(adv_data))
+
+ble.gap_scan(2000, 30000, 30000)
+ble.irq(handler=on_scan)
+
+def on_connect(addr_type, addr):
+    print("Connected to", addr)
+
+ble.gap_advertise(100000, advertising_payload(name='PicoW'))
+
+while True:
+    pass
 ```
 
 ## Práctica 5 - ChatGPT
