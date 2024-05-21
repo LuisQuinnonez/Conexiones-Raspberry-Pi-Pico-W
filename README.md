@@ -235,7 +235,7 @@ void loop() {
 
 ## Práctica 4 - Conectar Bluetooth
 ---
-![]()
+![](bluetooth.jpg)
 
 ### Código
 
